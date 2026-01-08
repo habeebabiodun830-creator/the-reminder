@@ -1,0 +1,89 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    background: #f4f7f6;
+    color: #222;
+    line-height: 1.7;
+}
+
+header {
+    background: #1e6f5c;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+nav {
+    background: #145a4a;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+    font-family: "Amiri", "Scheherazade", serif;
+}
+
+footer {
+    background: #1e6f5c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #1e6f5c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #145a4a;
+}
+
+
+
+
+
+
+

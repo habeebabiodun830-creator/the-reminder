@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <p>Reach out with questions, suggestions, or feedbacks.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="hadith.html">Hadith</a>
+    <a href="dua.html">Duʿā’</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+    <section class="card">
+        <h2>Email Us</h2>
+        <p>You can reach us directly at: <a href="mailto:yourname@example.com">habeebabiodun830@.com</a></p>
+    </section>
+
+    <section class="card">
+    <h2>Message Form</h2>
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+<p hidden>
+      <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
+    </p>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+<p id="success-msg" style="display:none; color:green; margin-top:10px;">
+    Thank you! Your message has been sent.
+</p>
+
+<script>
+document.querySelector('form').addEventListener('submit', function() {
+    document.getElementById('success-msg').style.display = 'block';
+});
+</script>
+
+</section>
+        </form>
+        <p style="font-size: 0.9em; margin-top: 10px;">
+            <!--*Form currently non-functional until you integrate a backend or email service*-->
+ </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 • Built for the sake of Allah</p>
+    <p>Contact: <a href="mailto:yourname@example.com">habeebabiodun830@.com</a></p>
+</footer>
+
+</body>
+</html>
